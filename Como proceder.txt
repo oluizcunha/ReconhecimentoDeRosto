@@ -1,0 +1,13 @@
+1) Instale o python 3.6.0 
+
+2)Via terminal instale:
+
+  pip install imutils
+  pip install numpy
+  pip install opencv-python
+
+3) via terminal Entre na pasta requisitos e rode:
+  pip install .\dlib-19.8.1-cp36-cp36m-win_amd64.whl
+
+4) Volte o terminal para pasta raiz e execute este comando:
+  python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/example_01.jpg
