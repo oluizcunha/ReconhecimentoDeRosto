@@ -1,7 +1,7 @@
-# USAGE
+# Como usar
 # python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/example_01.jpg 
 
-# import the necessary packages
+# importar os pacotes necessários
 from imutils import face_utils
 import numpy as np
 import argparse
